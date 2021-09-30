@@ -194,6 +194,7 @@ To run the `score.py` provided as part of the deployment, Azure creates a contai
     - A failure in the `init()` method
 - Readiness or liveness probes are not set up correctly.
 - There's an error in the environment setup of the container, such as a missing dependency.
+- If `get-logs` isn't producing any logs, try [deploying locally](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/machine-learning/how-to-troubleshoot-online-endpoints.md#deploy-locally) to debug instead.
 
 ### ERR_5000: Internal error
 
